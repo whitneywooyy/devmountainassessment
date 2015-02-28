@@ -1,0 +1,23 @@
+//------------------------------------------------------------------
+
+favoriteThings = {
+    band: "Paramore",
+    food: "Kimchi Jigae",
+    person: "Audrey Hepburn",
+    book: "National Geographic",
+    holiday: "Chinese New Year"
+};
+
+favoriteThings.car = "WRX";
+favoriteThings.brand = "Express";
+
+favoriteThings.food = "Lettuce";
+favoriteThings.book = "50 Shades of Gray"; // Really??
+
+//Now, alert your favorite person, then alert your favorite book.
+
+alert(favoriteThings.person);
+alert(favoriteThings.book);
+
+//------------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/zCcnT/346/
