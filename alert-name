@@ -1,0 +1,4 @@
+//Save your name to a variable, then alert that variable
+
+var myName = "Whitney Woolstenhulme";
+alert(myName);
