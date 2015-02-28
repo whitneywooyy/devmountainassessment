@@ -1,0 +1,12 @@
+//Write a function that takes in two numbers as parameters, adds them together, then returns the new value. 
+//------------------------------------------------------------------
+
+
+function sum(n1, n2) {
+    return n1+n2;
+    
+}
+alert(sum(2, 5));
+
+//------------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/M8pZf/391/
