@@ -1,0 +1,37 @@
+//------------------------------------------------------------------------
+
+var user = {
+    name: 'Tyler McGinnis', 
+    email: null,
+    pwHash: 'U+Ldlngx2BYQk',
+    birthday: undefined,
+    username: 'tylermcginnis33',
+    age: 0
+}
+
+var yup = "";
+var user;
+var item;
+
+for (item in user) {
+    if (!user[item]) {
+        delete user[item];
+        }
+  //  yup += user[item] + " --> ";
+};
+
+user.name = "Whitney Woolstenhulme";
+user.pwHash = "blahblahblah";
+user.username = "whitneywooooooz";
+
+for (item in user) {
+    yup += user[item] + " --> ";
+}
+
+//Now console.log your object and make sure it looks right.
+
+console.log(yup);
+
+
+//------------------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/VkvMV/352/
