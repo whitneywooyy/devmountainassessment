@@ -1,0 +1,11 @@
+//----------------------------------------------------------------------
+
+//Alert every item in arr.
+var arr = [1,2,3,4,5];
+
+for (var item = 0; item < arr.length; item++) {
+    alert(arr[item]);
+}
+
+//----------------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/YM7th/379/
