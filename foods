@@ -1,8 +1,6 @@
 //Save your favorite food to a variable called 'food'
 //----------------------------------------------------------------------
 
-  //code here
-
 var food = "cheezits";
 
 
