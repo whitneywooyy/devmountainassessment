@@ -1,0 +1,27 @@
+//-------------------------------------------------------------------
+
+var me = {
+    name: "Whitney Woolstenhulme",
+    age: 25,
+    height: "5'4",
+    gender: "Female",
+    married: "Yes",
+    eyeColor: "Brown",
+    hairColor: "Brown"
+};
+
+
+//Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
+
+var yup = "";
+var me;
+var item;
+
+for (item in me) {
+    yup += me[item] + " --> ";
+}
+alert(yup); 
+
+
+//-------------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/Lgf3G/365/ 
