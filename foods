@@ -1,0 +1,24 @@
+//Save your favorite food to a variable called 'food'
+//----------------------------------------------------------------------
+
+  //code here
+
+var food = "cheezits";
+
+
+//Now, if your favorite food is pizza, alert 'i love pizza', or if your favorite food is 'hotpockets', alert 'hot pockets woo', and if it's anything else, alert 'i have bad taste in foods'. Note: you should be using an if or if/else statement to accomplish this.
+
+  //code here
+
+if (food == "pizza") {
+    alert("i love pizza");
+}
+else if (food == "hotpockets") {
+    alert("hot pockets woo");
+}
+else {
+    alert("I have bad taste in foods");
+}
+
+//----------------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/85Lp6mba/369/
