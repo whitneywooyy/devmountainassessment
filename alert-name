@@ -1,4 +1,8 @@
 //Save your name to a variable, then alert that variable
+//---------------------------------------------------------------
 
 var myName = "Whitney Woolstenhulme";
 alert(myName);
+
+//---------------------------------------------------------------
+// See it in action at http://jsfiddle.net/whitneywooyy/U3ezV/686/
